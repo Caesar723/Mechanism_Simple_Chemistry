@@ -1,0 +1,28 @@
+create("Carbon",100,100,0) 	1,element name 
+		 	2,3,the position of element(x,y)
+			4,charge
+
+C1=create("Carbon",100,100,0) variable C1
+
+#C2=create("Carbon",200,200,0)  //execute it immediately
+
+C1:~>C2 coordinate
+
+C1&+>C2 transfer pair
+
+C1-C2 Carbon C1 and Carbon C2 from a covalent bond
+
+C1!C2 break bond
+
+move(C1,200,200) move element C1 to x=200 y=200
+
+
+main Character (,
+		#,
+		=,
+		:~>,
+		&+>,
+		-,
+		!
+
+	
